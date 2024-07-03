@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./src/assets/weather.jpg);
+  background-attachment: fixed;
+  margin: 0;
+}
+.theweather {
+  margin-top: 10px;
+  font-size: 5em;
+  color: white;
+  font-family: cursive;
+  margin-bottom: 20px; 
+}
+.weather-container {
+  padding-bottom: 50px;
+  width: 50vw;
+  position: absolute;
+  top: 200px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 25px;
+  border-radius: 70px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 60px;
+}
+.weather-container:hover{
+  transform: translateX(-50%) scale(1.05); 
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); 
+        cursor: pointer;
+}
+
+.weather {
+  text-align: center;
+  font-family: cursive;
+  font-size: 50PX;
+}
+.input {
+  width: 150px;
+  height: 20px; 
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: aliceblue;
+  text-align: center; 
+  display: block;
+  margin: 0 auto; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
